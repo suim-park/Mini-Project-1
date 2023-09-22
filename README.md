@@ -1,22 +1,22 @@
 ![Python CI](https://github.com/suim-park/Python-Template/actions/workflows/cicd.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
-### Mini Project 1 :page_facing_up:</br> 
+## Mini Project 1 :page_facing_up:</br> 
 
-#### :ballot_box_with_check: Requirements
+## :ballot_box_with_check: Requirements
 * .devcontainer configuration for a Python environment
 * Makefile with commands for setup, testing, and linting
 * GitHub Actions for CI/CD
 * requirements.txt for project dependencies
 * README.md with setup and usage instructions
 
------------------------------------------------
-#### :ballot_box_with_check: To-do List
+
+## :ballot_box_with_check: To-do List
 * __GitHub repository__: Create a Python GitHub Template in GitHub repository</br>
 * __Link to successful GitHub Action run__: Confirm whether GitHub Action has been executed successfully</br>
 
------------------------------------------------
-#### :ballot_box_with_check: In-progress
+
+## :ballot_box_with_check: In-progress
 __`Step 1`__ : Set up with the necessary files to build GitHub Repository such as Makefile, requirements.txt, main.yml, Dockerfile, devcontainer.json, etc.</br>
 - `Makefile`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/a9c1338b-eea0-4691-9a1d-0b7d3796e164.png" width="380" height="270"/></br>
@@ -30,7 +30,7 @@ __`Step 1`__ : Set up with the necessary files to build GitHub Repository such a
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/e554c866-630a-425b-a720-618b69e1c83d.png" width="600" height="400"/></br>
 __`Step 2`__ : Create a main.py file using the Polars package and a test_main.py file to test it. In these files, you should be able to fetch data from a CSV file and calculate the mean, median, and standard deviation. Additionally, utilize the variables in the provided data to create graphs and visualize the data directly.</br>
 * `main.py`</br>
-```
+```Python
 # Main.py using polars and matplotlib to set data and see some plot
 
 import polars as pl
@@ -63,7 +63,7 @@ def build_histogram():
 build_histogram()
 ```
 * `test_main.py`</br>
-```
+```Python
 # Test main.py
 
 from main import calculate_stat, build_histogram
